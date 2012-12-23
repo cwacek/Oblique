@@ -44,21 +44,23 @@ be a number of additional attributes on the element.
 
 **Example:**
 
-    <table cellspacing="0">
-        <thead>
-            <tr>
-                <th sortable="sort" sortBy='h2' invert='false'
-                    icon='static/loader.gif'>Heading2</th>
-                <th sortable="sort" sortBy='h2' invert='true' 
-                    icon='static/loader.gif'>Heading2</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Text</td>
-                <td>text2</td>
-            </tr>
-        </tbody>
-    </table>
+```html
+<table cellspacing="0">
+    <thead>
+        <tr>
+            <th sortable="sort" sortBy='h2' invert='false'
+                icon='static/loader.gif'>Heading2</th>
+            <th sortable="sort" sortBy='h2' invert='true' 
+                icon='static/loader.gif'>Heading2</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Text</td>
+            <td>text2</td>
+        </tr>
+    </tbody>
+</table>
+```
         
 
