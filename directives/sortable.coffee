@@ -1,3 +1,7 @@
+###
+This is part of the Oblique AngularJS components
+available at http://github.com/cwacek/Oblique
+###
 
 module = angular.module 'oblique.directives', []
 
