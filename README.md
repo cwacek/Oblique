@@ -63,4 +63,20 @@ be a number of additional attributes on the element.
 </table>
 ```
         
+Filters
+-------
 
+### truncate
+
+Truncates a string to a certain number of characters. Optionally
+only truncates the string if it is longer than a certain
+threshold.
+
+**Prototype: ** `truncate(limit, threshold)`
+
+**Example:** The following example will truncate `text` to 10
+characters long if it is longer than 12 characters.
+
+```html
+<span>{{text | truncate:10:12 }} </span>
+```
